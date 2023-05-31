@@ -16,13 +16,9 @@ public class ProductsImpl {
     // Создаёт хешмап для хранения пар id - Product.
     private HashMap<String, Product> products;
 
-    // Создаём пару конуструкторов.
+    // Создаёт конуструктор.
     public ProductsImpl() {
         this.products = new HashMap<>();
-    }
-
-    public ProductsImpl(HashMap<String, Product> products) {
-        this.products = products;
     }
 
 

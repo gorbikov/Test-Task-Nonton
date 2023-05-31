@@ -6,9 +6,7 @@ public class Product {
     private String name;
 
 
-    // Создаём пару конструкторов, геттеры и сеттеры.
-    public Product() {
-    }
+    // Создаёт конструктор, геттеры и сеттеры.
 
     public Product(String id, String name) {
         this.id = id;
